@@ -138,8 +138,13 @@ h4{
 
 .intro {
   height: 100%;
-  /*padding: 25%; */
-  background: #DBC9A9;
+  /*padding: 25%; 
+  background: #DBC9A9;*/
+  background: url(../img/old-timey.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 /* Services */
@@ -173,7 +178,7 @@ i.service-icon {
   display: table;
   height: 400px;
   width: 100%;
-  background: url(../img/callout.jpg) no-repeat center center fixed; 
+  background: url(../img/house.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
