@@ -137,8 +137,9 @@ h4{
 /* Intro */
 
 .intro {
-  padding: 25% 0;
-  background: #FFFFFF;
+  height: 100%;
+  /*padding: 25%; */
+  background: #DBC9A9;
 }
 
 /* Services */
