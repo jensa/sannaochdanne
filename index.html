@@ -8,12 +8,13 @@
 
     <title>Sanna & Danne</title>
 
+    <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
 
+    <!-- Add custom CSS here -->
     <link href="css/stylish-portfolio.css" rel="stylesheet">
-
-    <link rel="icon" type="image/vnd.microsoft.icon"
-     href="img/favicon.ico" />
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
     <!--link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>-->
   </head>
 
@@ -197,8 +198,22 @@
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/bootstrap.js"></script>
 
+    <!-- Custom JavaScript for the Side Menu and Smooth Scrolling -->
+    <script>
+        $("#menu-close").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
+    <script>
+        $("#menu-toggle").click(function(e) {
+            e.preventDefault();
+            $("#sidebar-wrapper").toggleClass("active");
+        });
+    </script>
     <script>
       $(function() {
         $('a[href*=#]:not([href=#])').click(function() {

@@ -53,10 +53,6 @@ p{
   font-size: 40px;
 }
 
-.container {
-  height: 100%;
-  position:relative;
-}
 
 .bigHeader {
   position: absolute;
