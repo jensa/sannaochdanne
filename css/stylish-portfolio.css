@@ -13,15 +13,21 @@ body {
 }
 
 h1{
-  color: #FFFFFF;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #9E7F45;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
 }
 
 h2{
-  color: #B86571;
+  color: #9E7F45;
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
 }
 h3{
-  color: #FFFFFF;
+  color: #9E7F45;
+  font-family: 'Great Vibes', cursive;
+  font-size: 350px;
+
 }
 
 h4{
@@ -134,8 +140,7 @@ h4{
   background-size: cover;
 }
 
-/* Intro */
-
+/*brödtext-bitarna*/
 .intro {
   height: 100%;
   /*padding: 25%; 
@@ -171,6 +176,33 @@ i.service-icon {
   text-align: center;
 }
 
+.delim {
+  background-image: url(../img/delim.png);
+  height: 30px;
+  width: 250px;
+  margin:0; /* If you want no margin */
+  padding:10px; /*if your want to padding */
+  /*content: url(../img/delim.png);
+  display: table;*/
+}
+
+.menu {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menuItem {
+  display: inline-block;
+  padding: 8px;
+}
+
+a:link, a:visited { 
+  color: #9E7F45;
+  text-decoration: none;
+}
+a:hover { color: #44371E; text-decoration: none;}  /* user hovers     */
+a:active { color: #44371E text-decoration: none;}  /* active links    */
 /* Callout */
 
 .callout {
@@ -179,6 +211,18 @@ i.service-icon {
   height: 400px;
   width: 100%;
   background: url(../img/house.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lake {
+  color: #ffffff;
+  display: table;
+  height: 400px;
+  width: 100%;
+  background: url(../img/wallby.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
