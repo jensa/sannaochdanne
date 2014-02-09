@@ -86,22 +86,18 @@ p{
   right: 25%;
   top: 40%;
 }
-#boendeText {
-  left: 5%;
-  right:5%;
-}
 
 .brot {
   position: absolute;
-  left:15%;
-  right:15%;
+  left:5%;
+  right:5%;
   top:30%;
 }
 
 .brot p{
   right:5%;
   left:5%;
-  font-size: 31px;
+  font-size: 170%;
 }
 
 .vert-text h1 {
