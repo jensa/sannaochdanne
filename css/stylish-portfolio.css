@@ -177,7 +177,8 @@ hr:before {
   white-space: nowrap;
   position:absolute;
   bottom:0;
-  left:14%;
+  left:15%;
+  right:15%;
 }
 
 .menuItem {
