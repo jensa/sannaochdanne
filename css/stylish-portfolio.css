@@ -194,19 +194,51 @@ a:hover { color: #44371E; text-decoration: none;}  /* user hovers     */
 a:active { color: #44371E text-decoration: none;}  /* active links    */
 /* Callout */
 
-.house {
-  color: #ffffff;
-  display: table;
-  height: 400px;
-  width: 100%;
-  background: url(../img/house.jpg) no-repeat center center fixed; 
+#fria {
+  background: url(../img/fria.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
 }
 
-.lake {
+#gladallvarlig {
+  background: url(../img/gladallvarlig.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#peace {
+  background: url(../img/peace.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#sitta {
+  background: url(../img/sitta.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#skiroKyrka {
+  background: url(../img/Skiro_kyrka.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#lake {
+  background: url(../img/wallbyvatten.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.photo {
   color: #ffffff;
   display: table;
   height: 400px;
@@ -243,12 +275,6 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
 
 .call-to-action .btn {
   margin: 10px;
-}
-
-/* Map */
-
-.map {
-  height: 500px;
 }
 
 /* Footer */
