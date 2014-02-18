@@ -74,6 +74,7 @@ p{
   right: 25%;
   top: 20%;
 }
+/*
 #vigselText {
   position: absolute;
   left: 25%;
@@ -86,17 +87,18 @@ p{
   right: 25%;
   top: 40%;
 }
-
+*/
 .brot {
   position: absolute;
-  left:5%;
-  right:5%;
+  margin-left:-400px;
   top:30%;
+  width: 800px;
+  left:50%;
 }
 
 .brot p{
-  right:5%;
-  left:5%;
+ /* right:5%;
+  left:5%;*/
   font-size: 170%;
 }
 
@@ -277,34 +279,8 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
   margin: 10px;
 }
 
-/* Footer */
-
-footer {
-  padding: 100px 0;
-}
-
-.top-scroll {
-  margin-top: 50px;
-}
-
-.top-scroll a {
-  text-decoration: none;
-  color: inherit;
-}
-
-i.scroll {
-  color: #333333;
-}
-
-i.scroll:hover {
-  color: #0a5175;
-}
 /* Responsive */
 
-@media (max-width: 768px) {
-
-  .map {
-	height: 75%;
-  }
+@media (max-width: 800px) {
 
 }
