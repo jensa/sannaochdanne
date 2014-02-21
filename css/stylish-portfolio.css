@@ -1,5 +1,3 @@
-/* Global Styles */
-
 html,
 body {
   height: 100%;
@@ -23,7 +21,6 @@ body {
     font-style: normal;
 }
 
-
 h1{
   color: #9E7F45;
   font-family: 'Great Vibes', cursive;
@@ -41,16 +38,35 @@ h3{
   font-size: 350px;
 
 }
-
 h4{
   color: #9E7F45;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Great Vibes', cursive; /* keep this font here */
   font-size: 60px;
 }
 p{
   color: #9E7F45;
   font-family: 'Great Vibes', cursive;
   font-size: 40px;
+}
+
+#festText p{
+  font-family: 'Felipa', cursive;
+
+}
+
+#descriptionText p{
+  font-family: 'Merienda', cursive;
+  font-size: 20px;
+  width: 1200px;
+
+}
+
+#boendeText p {
+  font-family: 'Enriqueta', serif;
+}
+
+#osaText p {
+  font-family: 'Enriqueta', serif;
 }
 
 
@@ -74,26 +90,18 @@ p{
   right: 25%;
   top: 20%;
 }
-/*
-#vigselText {
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 40%;
-}
 
-#vigselText p {
-  left: 25%;
-  right: 25%;
-  top: 40%;
-}
-*/
 .brot {
   position: absolute;
   margin-left:-400px;
   top:30%;
   width: 800px;
   left:50%;
+}
+
+#descriptionText {
+  margin-left:-600px;
+  width: 1200px;
 }
 
 .brot p{
@@ -121,30 +129,6 @@ p{
   background-size: cover;
 }
 
-/* Services */
-
-.services {
-  background: #7fbbda;
-  padding: 50px 0;
-  color: #ffffff;
-}
-
-.service-item {
-  margin-bottom: 15px;
-}
-
-i.service-icon {
-  border: 3px solid #ffffff;
-  border-radius: 50%;
-  display: inline-block;
-  font-size: 56px;
-  width: 140px;
-  height: 140px;
-  line-height: 136px;
-  vertical-align: middle; 
-  text-align: center;
-}
-
 hr {
     height: 30px;
     border-style: solid;
@@ -161,16 +145,6 @@ hr:before {
     border-color: #9E7F45;
     border-width: 0 0 1px 0;
     border-radius: 20px;
-}
-
-.delim {
-  background-image: url(../img/delim.png);
-  height: 30px;
-  width: 250px;
-  margin:0; /* If you want no margin */
-  padding:10px; /*if your want to padding */
-  /*content: url(../img/delim.png);
-  display: table;*/
 }
 
 .menu {
@@ -250,33 +224,6 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-}
-
-/* Portfolio */
-
-.portfolio {
-  padding: 50px 0;
-}
-
-.portfolio-item {
-  margin-bottom: 25px;
-}
-
-.img-portfolio {
-  margin: 0 auto;
-}
-
-
-/* Call to Action */
-
-.call-to-action {
-  color: #ffffff;
-  background: #B86571;
-  padding: 50px 0;
-}
-
-.call-to-action .btn {
-  margin: 10px;
 }
 
 /* Responsive */
