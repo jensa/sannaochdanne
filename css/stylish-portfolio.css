@@ -46,32 +46,15 @@ h4{
 p{
   color: #9E7F45;
   font-family: 'Felipa', cursive;
-  font-size: 40px;
-}
-
-#festText p{
-  font-family: 'Felipa', cursive;
 }
 
 #descriptionText p{
-  font-size:135%;
-}
 
-#osaText p {
-  font-family: 'Enriqueta', serif;
-}
-
-
-.bigHeader {
-  position: absolute;
-  top: 20%;
-  left: 5%
-  right: 5%;
 }
 
 .subTitle {
   position: absolute;
-  top: 70%;
+  bottom: 10%;
   left: 30%;
   right: 30%;
 }
@@ -80,27 +63,27 @@ p{
   position: absolute;
   left: 25%;
   right: 25%;
-  top: 20%;
+  top: 10%;
 }
 
 .brot {
   position: absolute;
-  margin-left:-400px;
-  top:30%;
-  width: 800px;
+  display: table-cell; 
+  vertical-align: middle; 
+  text-align: center; 
+  margin-left:-38%;
+  top:25%;
+  width: 76%;
+  height:80%;
   left:50%;
+  font-size: 110%;
+  font-size: 1.5vw;
 }
 
 #descriptionText {
   margin-left:-500px;
   width: 1000px;
   height: 3%;
-}
-
-.brot p{
- /* right:5%;
-  left:5%;*/
-  font-size: 170%;
 }
 
 .vert-text h1 {
@@ -110,12 +93,25 @@ p{
   font-weight: 700;
 }
 
+.container {
+  height: 100%;
+  position:relative;
+}
+
 /*brödtext-bitarna*/
 .paper {
   height: 100%;
   /*padding: 25%; 
   background: #DBC9A9;*/
-  background: url(../img/old-timey.jpg);
+  background: url(../img/logo-small.gif);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#logo {
+  background: url(../img/logo.gif);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -123,7 +119,7 @@ p{
 }
 
 hr {
-    height: 30px;
+    height: 20px;
     border-style: solid;
     border-color: #9E7F45;
     border-width: 1px 0 0 0;
@@ -132,8 +128,8 @@ hr {
 hr:before {
     display: block;
     content: "";
-    height: 30px;
-    margin-top: -31px;    
+    height: 20px;
+    margin-top: -21px;    
     border-style: solid;
     border-color: #9E7F45;
     border-width: 0 0 1px 0;
@@ -146,6 +142,13 @@ hr:before {
   white-space: nowrap;
   position:absolute;
   bottom:0;
+  left:15%;
+  right:15%;
+}
+
+#delim{
+  position:absolute;
+  bottom:5%;
   left:15%;
   right:15%;
 }
@@ -193,7 +196,7 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
   background-size: cover;
 }
 #skiroKyrka {
-  background: url(../img/Skiro_kyrka.jpg) no-repeat center center fixed;
+  background: url(../img/skiro_scaled.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
