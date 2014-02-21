@@ -45,24 +45,16 @@ h4{
 }
 p{
   color: #9E7F45;
-  font-family: 'Great Vibes', cursive;
+  font-family: 'Felipa', cursive;
   font-size: 40px;
 }
 
 #festText p{
   font-family: 'Felipa', cursive;
-
 }
 
 #descriptionText p{
-  font-family: 'Merienda', cursive;
-  font-size:120%;
-  width: 1200px;
-
-}
-
-#boendeText p {
-  font-family: 'Enriqueta', serif;
+  font-size:135%;
 }
 
 #osaText p {
@@ -100,8 +92,9 @@ p{
 }
 
 #descriptionText {
-  margin-left:-600px;
-  width: 1200px;
+  margin-left:-500px;
+  width: 1000px;
+  height: 3%;
 }
 
 .brot p{
