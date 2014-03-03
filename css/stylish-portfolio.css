@@ -2,12 +2,16 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-size: 24px;
 }
 
 .vert-text {
-  display: table-cell;
+  /*display: table-cell;
   vertical-align: middle;
-  text-align: center;
+  text-align: center;*/
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 80%
 }
 
 @font-face {
@@ -21,76 +25,44 @@ body {
     font-style: normal;
 }
 
-h1{
+h1{ /*subtitle*/
   color: #9E7F45;
   font-family: 'Great Vibes', cursive;
   font-size: 80px;
 }
 
-h2{
-  color: #9E7F45;
-  font-family: 'Great Vibes', cursive;
-  font-size: 40px;
-}
-h3{
-  color: #9E7F45;
-  font-family: 'Great Vibes', cursive;
-  font-size: 350px;
-
-}
 h4{
   color: #9E7F45;
   font-family: 'Great Vibes', cursive; /* keep this font here */
   font-size: 60px;
-}
-p{
-  color: #9E7F45;
-  font-family: 'Felipa', cursive;
+  margin-bottom: 80px;
 }
 
-#descriptionText p{
-
+#helgen {
+  margin-bottom: 10px;
 }
-
-.subTitle {
-  position: absolute;
-  bottom: 10%;
-  left: 30%;
-  right: 30%;
+.container{
+  text-align: center;
 }
-
-.heading {
-  position: absolute;
-  left: 25%;
-  right: 25%;
-  top: 10%;
+.subtitle{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .brot {
-  position: absolute;
-  display: table-cell; 
-  vertical-align: middle; 
-  text-align: center; 
-  margin-left:-38%;
-  top:25%;
-  width: 76%;
-  height:80%;
-  left:50%;
-  font-size: 110%;
-  font-size: 1.5vw;
+  color: #9E7F45;
+  font-family: 'Felipa', cursive;
+  margin-right: auto;
+  margin-left: auto;
+  width:70%;
+  min-height: 120%;
+  vertical-align: center;
+  padding-bottom: 80px;
 }
-
 #descriptionText {
-  margin-left:-500px;
-  width: 1000px;
-  height: 3%;
 }
-
-.vert-text h1 {
-  padding: 0;
-  margin: 0;
-  font-size: 4.5em;
-  font-weight: 700;
+#maplink{
+  color: blue;
 }
 
 .container {
@@ -100,18 +72,12 @@ p{
 
 /*brödtext-bitarna*/
 .paper {
-  height: 100%;
+  position: relative;
+  min-height: 100%;
+  /*height: 100%;
   /*padding: 25%; 
   background: #DBC9A9;*/
-  background: url(../img/logo-small.gif);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
-
-#logo {
-  background: url(../img/logo.gif);
+  background: url(../img/old-timey.jpg);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -140,12 +106,23 @@ hr:before {
   display: inline-block;
   overflow: hidden;
   white-space: nowrap;
-  position:absolute;
-  bottom:0;
-  left:15%;
-  right:15%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: absolute;
+  bottom: 40px;
+  left: 10%;
+  right: 10%;
 }
 
+.menuItem {
+  display: inline-block;
+  text-align: center;
+  padding: 8px;
+  color: #9E7F45;
+  font-family: 'Great Vibes', cursive;
+  font-size: 150%;
+}
 #delim{
   position:absolute;
   bottom:5%;
@@ -153,17 +130,12 @@ hr:before {
   right:15%;
 }
 
-.menuItem {
-  display: inline-block;
-  padding: 8px;
-}
-
 a:link, a:visited { 
   color: #9E7F45;
   text-decoration: none;
 }
 a:hover { color: #44371E; text-decoration: none;}  /* user hovers     */
-a:active { color: #44371E text-decoration: none;}  /* active links    */
+a:active { color: #44371E; text-decoration: none;}  /* active links    */
 /* Callout */
 
 #fria {
@@ -210,6 +182,18 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
   background-size: cover;
 }
 
+#logotype{
+  background: url(../img/logotyp.gif);
+  margin-bottom: 30px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#grr{
+  height:60%;
+  width:70%;
+}
+
 .photo {
   color: #ffffff;
   display: table;
@@ -222,8 +206,19 @@ a:active { color: #44371E text-decoration: none;}  /* active links    */
   background-size: cover;
 }
 
+.osalink{
+  color: #44371E;
+}
+
 /* Responsive */
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
+  .menuItem {
+    display: block;
+    font-size: 20px;
+  }
 
+  .brot {
+    padding-bottom: 250px;
+  }
 }
